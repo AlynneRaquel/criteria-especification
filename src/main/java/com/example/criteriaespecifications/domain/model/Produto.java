@@ -1,6 +1,8 @@
 package com.example.criteriaespecifications.domain.model;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 import org.springframework.format.annotation.DateTimeFormat;
@@ -23,30 +25,25 @@ import lombok.Setter;
 @Entity
 public class Produto {
 	
+	public Produto() {
+		
+	}
+	
 	@EqualsAndHashCode.Include
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotBlank
-	@Size(max = 150)
 	private String nome;
 	
-	@NotBlank
-	@Size(max = 2)
 	private String unidade;
 	
-	@NotBlank
-	//@DateTimeFormat
 	private Date validade;
-	
-	@NotBlank
+
 	private Integer quantidade;
-	
-	@NotBlank
+
 	private String marca;
 	
-	@NotBlank
 	private BigDecimal preco;
 
 }
