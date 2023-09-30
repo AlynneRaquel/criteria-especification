@@ -1,7 +1,7 @@
 package com.example.criteriaespecifications.domain.repository;
 
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 import com.example.criteriaespecifications.domain.model.Produto;
@@ -12,10 +12,12 @@ public interface ProdutoRepositoryQueries {
 	
 	List<Produto> findSemEstoque(String nome);
 	
-	List<Produto> findComValidade(Date dataValidade);
+	List<Produto> findComValidade(LocalDate dataValidade);
 	
 	List<Produto> findComFaixaPreco(BigDecimal precoInicial, BigDecimal precoFinal);
 	
 	List<Produto> findComMarcaIgual(String marca);
+	
+	List<Produto> getWithAllParams(String nome, BigDecimal precoInicial, BigDecimal precoFinal, String marca);
 
 }

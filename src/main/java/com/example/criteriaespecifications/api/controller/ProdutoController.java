@@ -1,10 +1,11 @@
 package com.example.criteriaespecifications.api.controller;
 
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -92,8 +94,19 @@ public class ProdutoController {
 	}
 	
 	@GetMapping("/com-validade")
-	public List<Produto> comValidade(Date dataValidade){
+	public List<Produto> comValidade(@DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate dataValidade){
+	
 		return produtoRepository.findComValidade(dataValidade);
 	}
+	
+//	@GetMapping("/com-todos-parametros")
+//    public List<Produto> getWithAllParams(@RequestParam Map<String,String> allRequestParams) {
+//        return produtoRepository.getWithAllParams(allRequestParams);
+//    }
+	
+	@GetMapping("/com-todos-parametros")
+    public List<Produto> getWithAllParams(String nome, BigDecimal precoInicial, BigDecimal precoFinal, String marca) {
+        return produtoRepository.getWithAllParams(nome, precoInicial, precoFinal, marca );
+    }
 	
 }

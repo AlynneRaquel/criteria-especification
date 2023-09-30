@@ -1,6 +1,7 @@
 package com.example.criteriaespecifications.infrastructure.repository.spec;
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.time.LocalDate;
 import java.util.Date;
 
 import org.springframework.data.jpa.domain.Specification;
@@ -24,7 +25,7 @@ public class ProdutoSpecs {
 		builder.equal(root.get("quantidade"), BigInteger.ZERO);
 	}
 	
-	public static Specification<Produto> comValidade(Date dataValidade ){
+	public static Specification<Produto> comValidade(LocalDate dataValidade ){
 		return (root, query, builder) ->
 		builder.greaterThan(root.get("validade"), dataValidade);
 	}

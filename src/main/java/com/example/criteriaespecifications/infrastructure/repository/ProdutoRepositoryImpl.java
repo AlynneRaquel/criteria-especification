@@ -5,8 +5,10 @@ import static com.example.criteriaespecifications.infrastructure.repository.spec
 import static com.example.criteriaespecifications.infrastructure.repository.spec.ProdutoSpecs.*;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -36,7 +38,7 @@ public class ProdutoRepositoryImpl implements ProdutoRepositoryQueries {
 	}
 
 	@Override
-	public List<Produto> findComValidade(Date dataValidade) {
+	public List<Produto> findComValidade(LocalDate dataValidade) {
 		return produtoRepository.findAll(comValidade(dataValidade));
 	}
 
@@ -48,6 +50,12 @@ public class ProdutoRepositoryImpl implements ProdutoRepositoryQueries {
 	@Override
 	public List<Produto> findComMarcaIgual(String marca) {
 		return produtoRepository.findAll(comMarcaigual(marca));
+	}
+
+	@Override
+	public List<Produto> getWithAllParams(String nome, BigDecimal precoInicial, BigDecimal precoFinal, String marca) {
+		return produtoRepository.findAll(comNomeSemelhante(nome).
+				or(comMarcaigual(marca).or(comFaixaPreco(precoInicial, precoFinal))));
 	}
 
 }
