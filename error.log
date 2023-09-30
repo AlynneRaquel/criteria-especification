@@ -1,0 +1,191 @@
+2023-09-30T17:24:40.539-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Starting CriteriaEspecificationsApplication using Java 17.0.7 with PID 32016 (C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications\target\classes started by alynne.pereira in C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications)
+2023-09-30T17:24:40.540-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-30T17:24:40.577-03:00  INFO 32016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-30T17:24:40.577-03:00  INFO 32016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-30T17:24:41.015-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30T17:24:41.061-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-09-30T17:24:41.441-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-30T17:24:41.448-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-30T17:24:41.448-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-30T17:24:41.500-03:00  INFO 32016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-30T17:24:41.500-03:00  INFO 32016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 922 ms
+2023-09-30T17:24:41.601-03:00  INFO 32016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30T17:24:41.644-03:00  INFO 32016 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-09-30T17:24:41.645-03:00  INFO 32016 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-30T17:24:41.747-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:24:41.854-03:00  INFO 32016 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-30T17:24:41.866-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-30T17:24:42.138-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8883243
+2023-09-30T17:24:42.140-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-30T17:24:42.344-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:24:42.796-03:00  INFO 32016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30T17:24:42.849-03:00  INFO 32016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:24:43.077-03:00  WARN 32016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30T17:24:43.280-03:00  INFO 32016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-30T17:24:43.311-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-30T17:24:43.316-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Started CriteriaEspecificationsApplication in 3.038 seconds (process running for 3.629)
+2023-09-30T17:25:16.611-03:00  INFO 32016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30T17:25:16.612-03:00  INFO 32016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-30T17:25:16.612-03:00  INFO 32016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-30T17:25:16.644-03:00  INFO 32016 --- [http-nio-8080-exec-1] c.e.c.api.controller.ProdutoController   : Listando todos os produtos
+2023-09-30T17:26:46.198-03:00  INFO 32016 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30T17:26:46.216-03:00  INFO 32016 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-30T17:26:46.217-03:00  INFO 32016 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-30T17:26:46.222-03:00  INFO 32016 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:26:46.224-03:00  INFO 32016 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-30T17:26:46.230-03:00  INFO 32016 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-30T17:26:46.278-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Starting CriteriaEspecificationsApplication using Java 17.0.7 with PID 32016 (C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications\target\classes started by alynne.pereira in C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications)
+2023-09-30T17:26:46.279-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-30T17:26:46.373-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30T17:26:46.381-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2023-09-30T17:26:46.432-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-30T17:26:46.432-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-30T17:26:46.432-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-30T17:26:46.447-03:00  INFO 32016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-30T17:26:46.447-03:00  INFO 32016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 167 ms
+2023-09-30T17:26:46.467-03:00  INFO 32016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30T17:26:46.471-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:26:46.471-03:00  INFO 32016 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-30T17:26:46.471-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-30T17:26:46.488-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@698e5be3
+2023-09-30T17:26:46.488-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-30T17:26:46.493-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:26:46.509-03:00  INFO 32016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30T17:26:46.517-03:00  INFO 32016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:26:46.595-03:00  WARN 32016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30T17:26:46.640-03:00  INFO 32016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-30T17:26:46.647-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-30T17:26:46.649-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Started CriteriaEspecificationsApplication in 0.391 seconds (process running for 126.962)
+2023-09-30T17:26:46.651-03:00  INFO 32016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-30T17:26:50.144-03:00  INFO 32016 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30T17:26:50.145-03:00  INFO 32016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-30T17:26:50.145-03:00  INFO 32016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-30T17:26:50.147-03:00  INFO 32016 --- [http-nio-8080-exec-2] c.e.c.api.controller.ProdutoController   : Listando todos os produtos
+2023-09-30T17:27:27.064-03:00  INFO 32016 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30T17:27:27.073-03:00  INFO 32016 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-30T17:27:27.073-03:00  INFO 32016 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-30T17:27:27.075-03:00  INFO 32016 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:27:27.076-03:00  INFO 32016 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-09-30T17:27:27.079-03:00  INFO 32016 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-09-30T17:27:27.126-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Starting CriteriaEspecificationsApplication using Java 17.0.7 with PID 32016 (C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications\target\classes started by alynne.pereira in C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications)
+2023-09-30T17:27:27.127-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-30T17:27:27.216-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30T17:27:27.223-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2023-09-30T17:27:27.265-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-30T17:27:27.265-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-30T17:27:27.266-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-30T17:27:27.281-03:00  INFO 32016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-30T17:27:27.281-03:00  INFO 32016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 153 ms
+2023-09-30T17:27:27.300-03:00  INFO 32016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30T17:27:27.304-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:27:27.304-03:00  INFO 32016 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-30T17:27:27.304-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-09-30T17:27:27.317-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b75b266
+2023-09-30T17:27:27.317-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-09-30T17:27:27.321-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:27:27.334-03:00  INFO 32016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30T17:27:27.339-03:00  INFO 32016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:27:27.419-03:00  WARN 32016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30T17:27:27.457-03:00  INFO 32016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-30T17:27:27.463-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-30T17:27:27.465-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Started CriteriaEspecificationsApplication in 0.357 seconds (process running for 167.778)
+2023-09-30T17:27:27.466-03:00  INFO 32016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-30T17:27:54.386-03:00  INFO 32016 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30T17:27:54.398-03:00  INFO 32016 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-30T17:27:54.401-03:00  INFO 32016 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:27:54.401-03:00  INFO 32016 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-09-30T17:27:54.404-03:00  INFO 32016 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-09-30T17:27:54.448-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Starting CriteriaEspecificationsApplication using Java 17.0.7 with PID 32016 (C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications\target\classes started by alynne.pereira in C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications)
+2023-09-30T17:27:54.449-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-30T17:27:54.528-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30T17:27:54.535-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2023-09-30T17:27:54.574-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-30T17:27:54.575-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-30T17:27:54.575-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-30T17:27:54.589-03:00  INFO 32016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-30T17:27:54.589-03:00  INFO 32016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 139 ms
+2023-09-30T17:27:54.605-03:00  INFO 32016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30T17:27:54.610-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:27:54.610-03:00  INFO 32016 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-30T17:27:54.611-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-09-30T17:27:54.620-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28a781f1
+2023-09-30T17:27:54.620-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-09-30T17:27:54.624-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:27:54.637-03:00  INFO 32016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30T17:27:54.643-03:00  INFO 32016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:27:54.719-03:00  WARN 32016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30T17:27:54.759-03:00  INFO 32016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-30T17:27:54.766-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-30T17:27:54.769-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Started CriteriaEspecificationsApplication in 0.34 seconds (process running for 195.081)
+2023-09-30T17:27:54.770-03:00  INFO 32016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-30T17:28:21.141-03:00  INFO 32016 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30T17:28:21.142-03:00  INFO 32016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-30T17:28:21.143-03:00  INFO 32016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-30T17:29:28.667-03:00  INFO 32016 --- [http-nio-8080-exec-4] c.e.c.api.controller.ProdutoController   : Listando produtos com os filtros null,null,null,null
+2023-09-30T17:29:39.811-03:00  INFO 32016 --- [http-nio-8080-exec-5] c.e.c.api.controller.ProdutoController   : Listando produtos com os filtros a,null,null,null
+2023-09-30T17:33:26.802-03:00 ERROR 32016 --- [http-nio-8080-exec-1] c.e.c.api.controller.ProdutoController   : Produto 10 não existe, não será possível atualizar.
+2023-09-30T17:33:53.466-03:00  INFO 32016 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30T17:33:53.475-03:00  INFO 32016 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-30T17:33:53.476-03:00  INFO 32016 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-30T17:33:53.479-03:00  INFO 32016 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:33:53.479-03:00  INFO 32016 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-09-30T17:33:53.484-03:00  INFO 32016 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-09-30T17:33:53.532-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Starting CriteriaEspecificationsApplication using Java 17.0.7 with PID 32016 (C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications\target\classes started by alynne.pereira in C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications)
+2023-09-30T17:33:53.532-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-30T17:33:53.626-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30T17:33:53.632-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2023-09-30T17:33:53.677-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-30T17:33:53.678-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-30T17:33:53.678-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-30T17:33:53.691-03:00  INFO 32016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-30T17:33:53.691-03:00  INFO 32016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
+2023-09-30T17:33:53.709-03:00  INFO 32016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30T17:33:53.713-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:33:53.713-03:00  INFO 32016 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-30T17:33:53.714-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-09-30T17:33:53.726-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58362dde
+2023-09-30T17:33:53.726-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-09-30T17:33:53.730-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:33:53.743-03:00  INFO 32016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30T17:33:53.752-03:00  INFO 32016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:33:53.835-03:00  WARN 32016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30T17:33:53.888-03:00  INFO 32016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-30T17:33:53.895-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-30T17:33:53.897-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Started CriteriaEspecificationsApplication in 0.384 seconds (process running for 554.209)
+2023-09-30T17:33:53.898-03:00  INFO 32016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-30T17:33:54.721-03:00  INFO 32016 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30T17:33:54.721-03:00  INFO 32016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-30T17:33:54.722-03:00  INFO 32016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-30T17:34:16.910-03:00  INFO 32016 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30T17:34:16.920-03:00  INFO 32016 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-30T17:34:16.921-03:00  INFO 32016 --- [Thread-19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-30T17:34:16.923-03:00  INFO 32016 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:34:16.924-03:00  INFO 32016 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-09-30T17:34:16.926-03:00  INFO 32016 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-09-30T17:34:16.979-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Starting CriteriaEspecificationsApplication using Java 17.0.7 with PID 32016 (C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications\target\classes started by alynne.pereira in C:\Users\alynne.pereira\OneDrive\Projetos\BackEnd\Java\workspace_projetos\criteria-especifications)
+2023-09-30T17:34:16.980-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-30T17:34:17.058-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30T17:34:17.064-03:00  INFO 32016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2023-09-30T17:34:17.098-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-30T17:34:17.099-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-30T17:34:17.099-03:00  INFO 32016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-30T17:34:17.112-03:00  INFO 32016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-30T17:34:17.113-03:00  INFO 32016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 132 ms
+2023-09-30T17:34:17.128-03:00  INFO 32016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30T17:34:17.131-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:34:17.131-03:00  INFO 32016 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-30T17:34:17.132-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-09-30T17:34:17.143-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ca6ffd
+2023-09-30T17:34:17.144-03:00  INFO 32016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-09-30T17:34:17.149-03:00  INFO 32016 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-30T17:34:17.161-03:00  INFO 32016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30T17:34:17.167-03:00  INFO 32016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30T17:34:17.239-03:00  WARN 32016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30T17:34:17.283-03:00  INFO 32016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-30T17:34:17.292-03:00  INFO 32016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-30T17:34:17.295-03:00  INFO 32016 --- [restartedMain] c.e.c.CriteriaEspecificationsApplication : Started CriteriaEspecificationsApplication in 0.34 seconds (process running for 577.607)
+2023-09-30T17:34:17.296-03:00  INFO 32016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-30T17:34:19.376-03:00  INFO 32016 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30T17:34:19.376-03:00  INFO 32016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-30T17:34:19.376-03:00  INFO 32016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-30T17:34:19.384-03:00 ERROR 32016 --- [http-nio-8080-exec-3] c.e.c.api.controller.ProdutoController   : Produto 10 não existe, não será possível atualizar.
